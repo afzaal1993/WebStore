@@ -8,7 +8,8 @@ import {currencyCode} from '../../constants';
 export class HeaderComponent implements OnInit {
   constructor() {}
 
-currCode = currencyCode;
+  currCode = currencyCode;
 
   ngOnInit(): void {}
 }
+ 
